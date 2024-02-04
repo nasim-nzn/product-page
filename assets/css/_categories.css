@@ -1,0 +1,14 @@
+.cat-desc{
+    font-size: 13px;
+    margin-right: 20px
+}
+/* .cat-desc + img{
+  width: 100px;
+} */
+.cat-hover{
+    transition: .5s ease;
+}
+.cat-hover:hover{
+    box-shadow: 0 0 7px 3px rgb(198 196 196 / 50%);
+    z-index: 1;
+}

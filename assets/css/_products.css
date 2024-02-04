@@ -1,0 +1,13 @@
+.custom-card-img{
+    max-width: 175px;
+}
+.p-title,.p-price{
+    font-size: 14px;
+}
+.custom-card{
+    border: none!important;
+    border-radius: 0!important;
+}
+.custom-card:hover{
+    box-shadow: 0px 0px 10px 0px #d6d0d0;
+}

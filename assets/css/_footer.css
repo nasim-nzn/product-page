@@ -1,0 +1,56 @@
+.news-latter-s1 h6{
+    font-size: 18px;
+    font-weight: 900;
+}
+.news-latter-s2 p{
+    line-height: 35px;
+}
+.news-latter-s3 button{
+    font-size: 14px;
+}
+.main-section-footer h5{
+    border-bottom: 3px solid #dc3545;
+    padding-bottom: 10px;
+    display: inline-flex;
+    font-size: 16px;
+}
+.footer-nav-custom li a{
+    transition: .3s ease;
+}
+.footer-nav-custom li a:hover{
+   color: #dc3545 !important;
+}
+.support-rules{
+    font-size: 38px;
+    color: #6f6feb;
+}
+.social-icon ul li a.telegram,.social-icon ul li a.insta,.social-icon ul li a.twi,.social-icon ul li a.faceb,.social-icon ul li a.rss{
+    font-size: 20px;
+    transition: .3s ease;
+    color: rgb(122, 121, 121)!important;
+}
+.social-icon ul li a.telegram:hover{
+    color: rgb(45, 121, 236)!important;
+}
+.social-icon ul li a.insta:hover{
+    color: rgb(236, 45, 118)!important;
+}
+.social-icon ul li a.twi:hover{
+    color: rgb(41, 128, 215)!important;
+}
+.social-icon ul li a.faceb:hover{
+    color: rgb(57, 60, 228)!important;
+}
+.social-icon ul li a.rss:hover{
+    color: rgb(248, 154, 60)!important;
+}
+footer{
+    box-shadow: 0 0 6px 1px #efefef;
+}
+.news-latter .row{
+    box-shadow:  0 0 7px 1px #ccc9c9;
+    margin-top: -59px;
+}
+.modal-footer a{
+    color: #6f6feb!important;
+}

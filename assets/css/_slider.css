@@ -1,0 +1,8 @@
+.custom-col-md-3{
+    flex: 0 0 21%;
+    max-width: 21%;
+}
+.custom-col-md-6 {
+    flex: 0 0 57.7%;
+    max-width: 57.7%;
+} 

@@ -1,0 +1,44 @@
+.custom-breadcrumb{
+    margin: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+.product-page-rate{
+    color: gold;
+}
+.product-page-rate span{
+    color: #3e3e3e;
+    margin-right: 10px;
+}
+/* .product-page-tile span:first-child{
+    font-size: 30px;
+    font-weight: 900;
+} */
+.product-page-title span i{
+    font-size: 22px;
+}
+.product-page-title .fa-heart{
+    color: rgb(211, 5, 5);
+}
+.product-page-title .fa-share-alt,.product-page-title .fa-bell{
+    color: rgb(68, 67, 67);
+}
+.product-page-price{
+    font-size: 18px;
+}
+.benefit-list li a{
+    color: #6b6b6b!important;
+    
+}
+.benefit-list li a:hover{
+    color: #6b6b6b!important;
+    
+}
+.p-benefit{
+    font-size: 18px;
+}
+.benefit-list li a i{
+    color: rgb(87, 87, 248)!important;
+    font-size: 10px!important;
+}

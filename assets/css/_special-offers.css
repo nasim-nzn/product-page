@@ -1,0 +1,96 @@
+.custom-nav-tabs .nav-item.show .nav-link, .custom-nav-tabs .nav-link.active {
+    color: #495057!important;
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.custom-nav-tabs .nav-item.show .nav-link, .custom-nav-tabs .nav-link.active {
+    color: red!important;
+    background-color: transparent!important;
+    border: none!important;
+}
+.offer-rating{
+    color: rgb(218 218 49);
+}
+.count-down-timer #demo span{
+    background-color: #efefef;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 14px;
+}
+.count-down-timer #demo #day, .count-down-timer #demo #hours,.count-down-timer #demo #minutes,.count-down-timer #demo #seconds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#day,#hours,#minutes,#seconds{
+    position: relative;
+}
+#demo #day::after{
+  content: 'روز';
+  position: absolute;
+  top: 40px;
+  right: 8px;
+}
+#demo #hours::after{
+    content: 'ساعت';
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  #demo #minutes::after{
+    content: 'دقیقه';
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  #demo #seconds::after{
+    content: 'ثانیه';
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  .offer-expire-text{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer-expire-text .offer-expire-text-inner{
+    font-size: 17px;
+    padding: 10px;
+  }
+  .offer-image{
+    height: 240px;
+    overflow: hidden;
+  }
+  .offer-image img{
+    width: 240px;
+    transition: .5s ease;
+  }
+  .offer-image:hover img{
+    transform: translateY(-240px);
+  }
+  .offer-datails {
+    flex: 0 0 50%;
+    max-width: 60%;
+}
+.s-o-box-shadow{
+  box-shadow: 0 0 1px 1px #efefef;
+  z-index: 1;
+}
+.offer-section-title{
+  font-size: 18px;
+  right: 0;
+  top: 10px;
+  border-bottom: 2px solid red;
+}
+@media screen and (max-width:600px){
+  .offer-section-title{
+    opacity: 0;
+  }
+}
